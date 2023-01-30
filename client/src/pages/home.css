@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.home{
+   z-index: 1;
+   display: flex;
+   flex-direction: column;
+}
+.image-container {
+    position: relative;
+   display: grid;}
+.headline:hover {
+    background-size: 100% 100%;
+    background-position: 0% 100%;
+    transition: background-position .7s, background-size .5s ease-in-out;
+  }
+.headline{
+    margin-left: 10px;
+    color: white;
+cursor: pointer;
+  background-image: linear-gradient(gold, gold);
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+    transition: background-size .7s, background-position .5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+   
+}
+.line{
+    padding: 1%;
+    color: white;
+    margin-top: 1%;
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    
+}
+.image-caption {
+    position: absolute;
+    align-self: center;
+    font-family: 'Lobster', cursive;
+}
+
+.bg-image{
+    width:100%;
+     filter: blur(1.5px);
+}
+
+h1{
+    font-family: 'Explora', cursive;
+    font-size: 72px;
+    
+}
+
